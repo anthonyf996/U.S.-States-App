@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>U.S. States Quiz</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+  <main>
+    <section class="cont-img"><img src=""></section>
+  
+    <section class="cont-results" style="display: none;">
+      <h2>Results</h2>
+      <p id="score" title="Correct / Attempts">Score: 0 / 50</p>
+      <p id="missed" title="Number of incorrect guesses">Missed: 0</p>
+      <p id="accuracy" title="Score in percentage">Accuracy: 0 %</p>
+      <button onclick="reset()">Play Again</button>
+    </section>
+
+    <section class="cont-general">
+      <h2>Guess the State</h2>
+      <div class="stats-panel">
+        <p id="score" title="Number Correct / Total Attempts">Score: 0 / 50</p>
+        <p id="accuracy" title="Score in percentage">Accuracy: 0 %</p>
+      </div>
+
+      <p>What state is this?</p>
+      <div class="cont-input">
+        <input type="text" placeholder="Guess state" onkeypress="checkKeyPress(event)"></input>
+        <div class="button-panel">
+          <button onclick="check()">Check</button>
+          <button onclick="skip()">Skip</button>
+          <button onclick="reveal()">Reveal</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
