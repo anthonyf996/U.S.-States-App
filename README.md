@@ -1,4 +1,4 @@
-# U.S.-States-App
+# U.S. States Quiz App
 Demo: https://youtu.be/4S2RDE2OxVE
 
 U.S. States Quiz web application written using vanilla Javascript.
