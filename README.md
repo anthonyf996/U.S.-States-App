@@ -1,4 +1,11 @@
 # U.S. States Quiz App
+
+<br>
+
+![us_states_quiz_start_small](https://user-images.githubusercontent.com/26934289/231088940-f532a33c-5045-46ef-9c5b-2fc04b872270.png)
+
+<br>
+
 Demo: https://youtu.be/4S2RDE2OxVE
 
 
